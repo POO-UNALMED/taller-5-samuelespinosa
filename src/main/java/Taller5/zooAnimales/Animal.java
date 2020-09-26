@@ -6,7 +6,8 @@ public class Animal {
 	private int edad;
 	private String habitat;
 	private String genero;
-	private Zona zona;	
+	private Zona zona;
+	public Animal(){totalAnimales++;}
 	public Animal(String nombre, int edad, String habitat, String genero, Zona zona) {
 		this(nombre,edad,habitat,genero);
 		zona.agregarAnimales(this);
