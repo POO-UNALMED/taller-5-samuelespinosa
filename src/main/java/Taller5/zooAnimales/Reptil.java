@@ -35,22 +35,22 @@ public class Reptil extends Animal {
 	public static int cantidadReptiles() {
 		return cantidadReptiles;
 	}
-	public static Reptil crearIguana(String nombre, int edad,String genero, Zona zona,String colorEscamas,int largoCola) {
+	public static Reptil crearIguana(String nombre, int edad,String genero, Zona zona) {
 		Reptil r=new Reptil(nombre,edad,"humedal",genero,zona,"verde",3);
 		iguanas++;
 		return r;
 	}
-	public static Reptil crearSerpiente(String nombre, int edad,String genero, Zona zona,String colorEscamas,int largoCola) {
+	public static Reptil crearSerpiente(String nombre, int edad,String genero, Zona zona) {
 		Reptil r=new Reptil(nombre,edad,"jungla",genero,zona,"blanco",1);
 		serpientes++;
 		return r;
 	}
-	public static Reptil crearIguana(String nombre, int edad,String genero,String colorEscamas,int largoCola) {
+	public static Reptil crearIguana(String nombre, int edad,String genero) {
 		Reptil r=new Reptil(nombre,edad,"humedal",genero,"verde",3);
 		iguanas++;
 		return r;
 	}
-	public static Reptil crearSerpiente(String nombre, int edad,String genero,String colorEscamas,int largoCola) {
+	public static Reptil crearSerpiente(String nombre, int edad,String genero) {
 		Reptil r=new Reptil(nombre,edad,"jungla",genero,"blanco",1);
 		serpientes++;
 		return r;

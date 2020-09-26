@@ -63,5 +63,12 @@ public class Zoologico {
 		Zona z=new Zona(nombre,this,a);
 		zonas.add(z);
 	}
+	public void agregarZonas(ArrayList<Zona> Zonas) {
+		for(Zona z:zonas) {zonas.add(z);}
+		
+	}
+	public void agregarZonas(Zona z) {
+		zonas.add(z);
+	}
 	
 }
