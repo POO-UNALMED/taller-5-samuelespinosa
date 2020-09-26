@@ -40,7 +40,7 @@ public class Pez extends Animal {
 		salmones++;
 		return s;
 	}
-	public static Pez crearSerpiente(String nombre, int edad,String genero, Zona zona) {
+	public static Pez crearBacalao(String nombre, int edad,String genero, Zona zona) {
 		Pez b=new Pez(nombre,edad,"oceano",genero,zona,"gris",6);
 		bacalaos++;
 		return b;
@@ -50,7 +50,7 @@ public class Pez extends Animal {
 		salmones++;
 		return s;
 	}
-	public static Pez crearSerpiente(String nombre, int edad,String genero) {
+	public static Pez crearBacalao(String nombre, int edad,String genero) {
 		Pez b=new Pez(nombre,edad,"oceano",genero,"gris",6);
 		bacalaos++;
 		return b;
