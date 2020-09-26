@@ -17,6 +17,13 @@ public class Animal {
 		zona.agregarAnimales(this);
 		totalAnimales++;
 	}
+	public Animal(String nombre, int edad, String habitat, String genero) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.habitat = habitat;
+		this.genero = genero;
+		totalAnimales++;
+	}
 	
 	
 	public static int getTotalAnimales() {
@@ -79,7 +86,7 @@ public class Animal {
 	}
 
 
-	public String totalPorTipo() {
+	public static String totalPorTipo() {
 		String retorno="Mamiferos:"+Mamifero.cantidadMamiferos()+"\n";
 		retorno+="Aves:"+Ave.cantidadAves()+"\n";
 		retorno+="Reptiles:"+Reptil.cantidadReptiles()+"\n";
